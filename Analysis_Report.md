@@ -101,6 +101,14 @@ Actionable Insights:
 
 ***
 
+### MITRE ATT&CK TTP IDs:
+
+* T1110.004 (Credential Stuffing) demonstrated through repeated SSH authentication attempts using credential stuffing - tried multiple username/password combinations
+* T1110.001 (Password Guessing) demonstrated through trying to guess predictable credentials
+* T1021.005 (SSH) demonstrated through attempting to target remote SSH services on the honeypot
+
+***
+
 ### Conclusion:
 
 This honeypot captured real attacker behaviour and insight into black-hat thinking. The log analysis revealed mostly basic credentials being attempted, likely due to shared wordlists and/or use of botnets. This suggests how some attackers prioritise speed of compromise over sophisticated attack, while others favour a more persistent and concentrated attack. These findings are valuable for understanding realistic attacker TTPs, improving penetration testing engagements.
