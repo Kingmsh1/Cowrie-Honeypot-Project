@@ -27,7 +27,7 @@ python Parser.py
 # Display basic statistics
 python Analyser.py
 
-# Attacker profiling & clustering
+# Attacker profiling 
 python Profiler.py
 ```
 
@@ -48,7 +48,7 @@ This project demonstrates:
 | `Detailed_Method.md`          | Method for implementing the project |
 | `Parser.py`                   | Extract data from raw Cowrie logs   |
 | `Analyser.py`                 | Basic statistics and aggregation    |
-| `Profiler.py`                  | Attacker profiling and clustering   |
+| `Profiler.py`                  | Attacker profiling   |
 | `attacks.csv`                 | Parsed attack data                  |
 | `honeypotlogs.txt`            | Raw Cowrie honeypot text logs            |
 
@@ -58,7 +58,6 @@ This project demonstrates:
 * Infrastructure: DigitalOcean (Ubuntu 22.04 LTS) VM droplet.
 * Data Analysis: Python, Pandas.
 * Parsing: Regex pattern matching.
-* Clustering: Pandas operations.
 
 ### Methodology
 
