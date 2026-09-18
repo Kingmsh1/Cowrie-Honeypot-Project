@@ -96,7 +96,7 @@ Actionable Insights:
 
 * Deployment Period: 27 hours.
 * Tool: Cowrie 2.9.13 SSH (Ports 2222-2223) Honeypot on DigitalOcean Ubuntu 22.04 LTS VM.&#x20;
-* Detection Technique: Log analysis with Python regex + Pandas clustering.
+* Detection Technique: Log analysis with Python regex + Pandas.
 * Key Attacker Statistics: 176 attacks, 16 attacker IPs.
 
 ***
